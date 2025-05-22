@@ -1,5 +1,6 @@
 # 🐍 Python OOP: Abstract Class & Method Example
-
+## Name: HASMITHA V NANCY
+## Reg No: 212224040111
 ## 🎯 AIM
 
 To create an **abstract class** named `Shape` with an **abstract method** `calculate_area`, and implement this method in two subclasses: `Rectangle` and `Circle`.
@@ -29,7 +30,21 @@ To create an **abstract class** named `Shape` with an **abstract method** `calcu
 ---
 
 ## 💻 Program
+~~~
+class Fish:
+    def type(self):
+        print("fish")
 
+class Shark(Fish):
+    def type(self):
+        print("shark")
+obj_goldfish = Fish()
+obj_hammerhead = Shark()
+for fish in (obj_goldfish, obj_hammerhead):
+    fish.type()
+~~~
 ## Output
+![446371832-5bcf4169-4cc9-4936-af50-73617933e90b](https://github.com/user-attachments/assets/3a8c64d8-39db-422f-b6a4-d74ea055175f)
 
 ## Result
+Thus, the program is verified successfully.
